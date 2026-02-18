@@ -17,11 +17,40 @@
     <p>Owner / Developer: Badr El Ouariti</p>
     <p>Contact Email: badraudi@gmail.com</p>
 
-    <h2>Verification Note</h2>
+    <h2>Domain Verification Status</h2>
+    <p><strong>Domain:</strong> gamrabadr.github.io</p>
+    <p><strong>Verification Method:</strong> File-based verification</p>
+    <p><strong>Verification File:</strong> <code>.well-known/epic-domain-verification.txt</code></p>
+
+    <h2>Important Note About TXT DNS Records</h2>
     <p>
-        If Epic requires a verification file, it will be published in the repository root or in
-        the <code>.well-known/</code> path using the exact filename and content provided by Epic.
+        Since this site is hosted on GitHub Pages (<code>gamrabadr.github.io</code>), 
+        direct DNS TXT records cannot be added because GitHub controls the DNS for 
+        <code>*.github.io</code> subdomains.
     </p>
+    <p>
+        For Epic Games verification, use the file-based verification method by placing 
+        the verification content in the <code>.well-known/epic-domain-verification.txt</code> file.
+    </p>
+
+    <h2>Steps to Complete Verification</h2>
+    <ol>
+        <li>Copy your domain secret from the Epic Developer Portal</li>
+        <li>Update the <code>.well-known/epic-domain-verification.txt</code> file with your secret</li>
+        <li>Commit and push the changes to this repository</li>
+        <li>Wait for GitHub Pages deployment to complete</li>
+        <li>Click "Verify" in the Epic Developer Portal</li>
+    </ol>
+
+    <h2>Custom Domain Option</h2>
+    <p>
+        If Epic requires a TXT DNS record specifically, you can set up a custom domain:
+    </p>
+    <ol>
+        <li>Register a custom domain</li>
+        <li>Configure it as a custom domain for this GitHub Pages site</li>
+        <li>Add the TXT record through your domain registrar's DNS settings</li>
+    </ol>
 
     <p><a href="index.html">Back to Home</a></p>
     <p><a href="privacy.html">Privacy Policy</a></p>
