@@ -1,3 +1,1 @@
-EPIC_DOMAIN_VERIFICATION_PLACEHOLDER
-
-Replace this exact content with the verification token provided by Epic Developer Portal.
+269f7783ade475c00b00a0be2d8e19b2334d182b8e079d03a5fd54e251051b05
